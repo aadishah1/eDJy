@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Asap Condensed, sans-serif;
+  font-size: 1.2rem;
+  background-image: url("images/music_party.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  font-size: 4em;
+  color: #ba6523;
+  text-decoration: none;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  color: #ba6523;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  background: rgba(186, 101, 35, 0.6);
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.link-button a {
+  text-decoration: none;
+  align-items: center;
+}
+
+.link-button a {
+  color: white;
+  margin: auto;
+}
+
+#dj {
+  font-weight: 600;
+}
