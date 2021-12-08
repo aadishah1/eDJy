@@ -1,22 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;600&display=swap");
 
+* {
+  font-weight: 400;
+}
+
+.chat-container {
+  width: 25vw;
+  height: 500px;
+  border-radius: 20px;
+  background-color: rgba(186, 101, 35, 0.6);
+}
+
 .column {
   float: left;
   padding: 10px;
   height: 300px;
 }
 
+audio {
+  width: 30em;
+}
+
 .playlist {
   display: flex;
   justify-content: start;
+  font-size: 1.3em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.playlist-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .playlist-title {
-  margin: 3em 0 0 2em;
+  margin: 3em 0 0 4em;
 }
 
 .playlist-subtitle {
-  margin: 0 0 0 2em;
+  margin: 0 0 0 5em;
 }
 
 .cover-img {
@@ -33,6 +56,8 @@
   justify-content: space-between;
   background-color: rgba(186, 101, 35, 0.6);
   margin-right: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   border-radius: 30px;
 }
 
@@ -47,9 +72,9 @@
 }
 
 .left {
-  width: 75%;
+  width: 70%;
 }
 
 .right {
-  width: 25%;
+  width: 30%;
 }
