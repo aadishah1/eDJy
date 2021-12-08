@@ -2,7 +2,7 @@
 
 .home-title {
   line-height: 0.5em;
-  font-size: 2em;
+  font-size: 3.5em;
   display: flex;
   /* align-items: center; */
   justify-content: right;
@@ -10,17 +10,19 @@
   overflow-wrap: break-word;
   font-weight: 400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  margin-right: 2rem;
 }
 
 .home-subtitle {
   line-height: 0.5em;
-  font-size: 1em;
+  font-size: 2em;
   display: flex;
   justify-content: right;
   text-align: right;
   overflow-wrap: break-word;
   font-weight: 400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  margin-right: 2rem;
 }
 
 .home-main-section {
@@ -36,6 +38,7 @@
 }
 
 .main-footer p {
+  font-size: 2em;
   font-weight: 400;
   line-height: 57px;
   margin: 0.5rem 0;
