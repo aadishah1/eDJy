@@ -9,6 +9,53 @@
   height: 500px;
   border-radius: 20px;
   background-color: rgba(186, 101, 35, 0.6);
+  padding-top: 0.8em;
+  position: relative;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.chat-footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+
+.mute {
+  width: 2em;
+  height: 2em;
+  margin-top: 1.8rem;
+}
+
+.clipboard {
+  background: #cbcbcb;
+  color: black;
+  margin: 1em;
+  border-radius: 10px;
+  width: 15rem;
+  padding-left: 0.5em;
+}
+
+.add-friend {
+  margin-top: 1em;
+  width: 3em;
+  height: 3em;
+}
+
+.clipboard-img {
+  margin-left: 0.5em;
+  width: 1em;
+  height: 1em;
+}
+
+.clipboard p {
+  padding: 0.5em;
+  font-size: 1em;
 }
 
 .column {
