@@ -34,7 +34,7 @@
 
 .main-footer {
   position: relative;
-  top: 15vh;
+  top: 20vh;
 }
 
 .main-footer p {
@@ -51,4 +51,8 @@
   padding: 0;
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer-ul a {
+  font-size: 1.8em;
 }
