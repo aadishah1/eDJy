@@ -10,7 +10,7 @@ roomtext.addEventListener('change', () => {
         var x = joinpage.addEventListener('click', handle);
         roomtext.style.background = '#ff2222';
 
-        alert('Please enter correct room code');
+        alert('Please enter correct room code of the format CX-----AB');
     } else {
         var joinpage = document.querySelector('.joinlink');
         joinpage.removeEventListener('click', handle);
