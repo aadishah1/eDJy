@@ -1,12 +1,28 @@
 .genre {
-    display: flex;
-    background-color: rgba(186, 101, 35, 0.6);
-    border-radius: 20px;
-    width: 750px;
-  }
-
-.column{
-    flex: 13.33%;
-    padding: 0.3%;
+  display: flex;
+  background-color: rgba(186, 101, 35, 0.6);
+  border-radius: 20px;
+  width: 750px;
+  margin: 1em;
+  padding: 0.3em;
 }
 
+.column {
+  flex: 13.33%;
+  padding: 0.3%;
+}
+
+.genre-list {
+  float: left;
+}
+
+.features {
+  display: flex;
+  padding: 1%;
+  align-items: center;
+  justify-content: start;
+}
+
+.feature {
+  margin-left: 1em;
+}
