@@ -14,6 +14,18 @@
   float: left;
 }
 
-.features{
-  float: right;
+.features {
+  display: flex;
+  padding: 1%;
 }
+
+.feature {
+  flex: 1;
+  border: 2px solid yellow;
+  
+}  
+
+.feature:first-child {
+  margin-right: 1px;
+} 
+
