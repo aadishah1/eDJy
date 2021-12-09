@@ -1,0 +1,12 @@
+.genre {
+    display: flex;
+    background-color: rgba(186, 101, 35, 0.6);
+    border-radius: 20px;
+    width: 750px;
+  }
+
+.column{
+    flex: 13.33%;
+    padding: 0.3%;
+}
+
