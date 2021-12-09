@@ -7,6 +7,31 @@
   padding: 0.3em;
 }
 
+.heading {
+  margin-left: 1em;
+}
+
+.leave-room {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #52ff00;
+  width: 25vw;
+  margin-top: 1em;
+  border-radius: 10px;
+}
+
+.leave-room a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+.leave {
+  width: 2em;
+  height: 2em;
+}
+
 .column {
   flex: 13.33%;
   padding: 0.3%;
@@ -25,4 +50,5 @@
 
 .feature {
   margin-left: 1em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
 }

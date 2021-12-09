@@ -56,3 +56,9 @@
 .footer-ul a {
   font-size: 1.8em;
 }
+
+#roomid {
+  margin-left: 1rem;
+  height: 3em;
+  padding: 0;
+}

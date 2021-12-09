@@ -63,7 +63,17 @@ ul li {
   align-items: center;
 }
 
+.link-button-open a {
+  text-decoration: none;
+  align-items: center;
+}
+
 .link-button a {
+  color: white;
+  margin: auto;
+}
+
+.link-button-open a {
   color: white;
   margin: auto;
 }
