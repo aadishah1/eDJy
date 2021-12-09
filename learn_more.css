@@ -10,3 +10,10 @@
     padding: 0.3%;
 }
 
+.genre-list{
+  float: left;
+}
+
+.features{
+  float: right;
+}
