@@ -1,2 +1,2 @@
 # eDJy
-Website to listen to music with friends and family.
+Website prototype to listen to music with friends and family.
